@@ -51,3 +51,31 @@ footer {
 
 .album img {
   height: 300px; }
+
+.ng-pristine .invalid {
+  visibility: hidden;
+}
+
+.ng-valid .invalid {
+  visibility: hidden;
+}
+
+.ng-submitted .invalid {
+  visibility: hidden;
+}
+
+.invalid {
+  color:red;
+}
+
+.ng-dirty .ng-empty {
+  border: 1px solid red;
+}
+
+.ng-dirty .ng-invalid {
+  border: 1px solid red;
+}
+
+.ng-submitted .ng-invalid {
+  border: none;
+}
